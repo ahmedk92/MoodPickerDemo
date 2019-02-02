@@ -21,8 +21,22 @@ class MoodPickerViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         cellSize = CGSize(width: collectionView.bounds.width / 4, height: collectionView.bounds.height)
         spacing = collectionView.bounds.width / 2 - cellSize.width / 2
-        collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .centeredHorizontally, animated: true)
         super.viewDidLayoutSubviews()
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        
+        coordinator.animate(alongsideTransition: { (_) in
+            self.cellSize = CGSize(width: self.collectionView.bounds.width / 4, height: self.collectionView.bounds.height)
+            self.spacing = self.collectionView.bounds.width / 2 - self.cellSize.width / 2
+            
+            self.collectionView.performBatchUpdates({
+                
+            }, completion: { (_) in
+                self.collectionView.scrollToItem(at: IndexPath(row: self.index, section: 0), at: .centeredHorizontally, animated: false)
+            })
+        }, completion: nil)
     }
 }
 
