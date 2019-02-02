@@ -13,6 +13,7 @@
 		28530E05220617A40078DC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28530E04220617A40078DC0B /* Assets.xcassets */; };
 		28530E08220617A40078DC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28530E06220617A40078DC0B /* LaunchScreen.storyboard */; };
 		28530E13220617A50078DC0B /* MoodePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28530E12220617A50078DC0B /* MoodePickerTests.swift */; };
+		28530E1E220617C80078DC0B /* MoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28530E1D220617C80078DC0B /* MoodPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		28530E0E220617A50078DC0B /* MoodePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28530E12220617A50078DC0B /* MoodePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodePickerTests.swift; sourceTree = "<group>"; };
 		28530E14220617A50078DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28530E1D220617C80078DC0B /* MoodPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				28530E04220617A40078DC0B /* Assets.xcassets */,
 				28530E06220617A40078DC0B /* LaunchScreen.storyboard */,
 				28530E09220617A40078DC0B /* Info.plist */,
+				28530E1D220617C80078DC0B /* MoodPickerViewController.swift */,
 			);
 			path = MoodePicker;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28530E00220617A40078DC0B /* ViewController.swift in Sources */,
+				28530E1E220617C80078DC0B /* MoodPickerViewController.swift in Sources */,
 				28530DFE220617A40078DC0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = MoodePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = MoodePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
