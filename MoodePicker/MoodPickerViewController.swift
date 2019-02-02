@@ -9,24 +9,8 @@
 import UIKit
 
 class MoodPickerViewController: UIViewController {
-    let emojis = [
-        "😀",
-        "😄",
-        "😆",
-        "😅",
-        "😂",
-        "🤣",
-        "☺️",
-        "😊",
-        "🙂",
-        "🙃",
-        "😉",
-        "😌",
-        "😍",
-        "😘",
-        "😎",
-        "🤩",
-    ]
+    // Credits: https://gist.github.com/iandundas/59303ab6fd443b5eec39
+    let emojis = [UInt32](0x1F601...0x1F64F).compactMap({ UnicodeScalar($0) }).map({ String($0) })
     
     @IBOutlet private weak var collectionView: UICollectionView!
     
