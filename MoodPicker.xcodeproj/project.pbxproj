@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28530DFA220617A40078DC0B /* MoodePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28530DFA220617A40078DC0B /* MoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28530DFD220617A40078DC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28530DFF220617A40078DC0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28530E02220617A40078DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28530E04220617A40078DC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28530E07220617A40078DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28530E09220617A40078DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28530E0E220617A50078DC0B /* MoodePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28530E0E220617A50078DC0B /* MoodPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28530E12220617A50078DC0B /* MoodePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodePickerTests.swift; sourceTree = "<group>"; };
 		28530E14220617A50078DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28530E1D220617C80078DC0B /* MoodPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerViewController.swift; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		28530DFB220617A40078DC0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28530DFA220617A40078DC0B /* MoodePicker.app */,
-				28530E0E220617A50078DC0B /* MoodePickerTests.xctest */,
+				28530DFA220617A40078DC0B /* MoodPicker.app */,
+				28530E0E220617A50078DC0B /* MoodPickerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28530DF9220617A40078DC0B /* MoodePicker */ = {
+		28530DF9220617A40078DC0B /* MoodPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28530E17220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodePicker" */;
+			buildConfigurationList = 28530E17220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodPicker" */;
 			buildPhases = (
 				28530DF6220617A40078DC0B /* Sources */,
 				28530DF7220617A40078DC0B /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = MoodePicker;
+			name = MoodPicker;
 			productName = MoodePicker;
-			productReference = 28530DFA220617A40078DC0B /* MoodePicker.app */;
+			productReference = 28530DFA220617A40078DC0B /* MoodPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28530E0D220617A50078DC0B /* MoodePickerTests */ = {
+		28530E0D220617A50078DC0B /* MoodPickerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28530E1A220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodePickerTests" */;
+			buildConfigurationList = 28530E1A220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodPickerTests" */;
 			buildPhases = (
 				28530E0A220617A50078DC0B /* Sources */,
 				28530E0B220617A50078DC0B /* Frameworks */,
@@ -132,9 +132,9 @@
 			dependencies = (
 				28530E10220617A50078DC0B /* PBXTargetDependency */,
 			);
-			name = MoodePickerTests;
+			name = MoodPickerTests;
 			productName = MoodePickerTests;
-			productReference = 28530E0E220617A50078DC0B /* MoodePickerTests.xctest */;
+			productReference = 28530E0E220617A50078DC0B /* MoodPickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28530DF5220617A40078DC0B /* Build configuration list for PBXProject "MoodePicker" */;
+			buildConfigurationList = 28530DF5220617A40078DC0B /* Build configuration list for PBXProject "MoodPicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28530DF9220617A40078DC0B /* MoodePicker */,
-				28530E0D220617A50078DC0B /* MoodePickerTests */,
+				28530DF9220617A40078DC0B /* MoodPicker */,
+				28530E0D220617A50078DC0B /* MoodPickerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		28530E10220617A50078DC0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28530DF9220617A40078DC0B /* MoodePicker */;
+			target = 28530DF9220617A40078DC0B /* MoodPicker */;
 			targetProxy = 28530E0F220617A50078DC0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodePicker.app/MoodePicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodPicker.app/MoodPicker";
 			};
 			name = Debug;
 		};
@@ -432,14 +432,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodePicker.app/MoodePicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodPicker.app/MoodPicker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28530DF5220617A40078DC0B /* Build configuration list for PBXProject "MoodePicker" */ = {
+		28530DF5220617A40078DC0B /* Build configuration list for PBXProject "MoodPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28530E15220617A50078DC0B /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28530E17220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodePicker" */ = {
+		28530E17220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28530E18220617A50078DC0B /* Debug */,
@@ -457,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28530E1A220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodePickerTests" */ = {
+		28530E1A220617A50078DC0B /* Build configuration list for PBXNativeTarget "MoodPickerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28530E1B220617A50078DC0B /* Debug */,
