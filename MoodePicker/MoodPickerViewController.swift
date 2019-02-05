@@ -77,12 +77,11 @@ extension MoodPickerViewController: UICollectionViewDelegate {
     
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         
-        var targetIndex = (targetContentOffset.pointee.x + cellSize.width / 2) / cellSize.width
-        targetIndex = velocity.x > 0 ? ceil(targetIndex) : floor(targetIndex)
-        targetIndex = targetIndex.clamped(minValue: 0, maxValue: CGFloat(emojis.count - 1))
-        targetContentOffset.pointee.x = targetIndex * cellSize.width
+        let point = CGPoint(x: targetContentOffset.pointee.x + scrollView.frame.midX, y: targetContentOffset.pointee.y)
+        guard let indexPath = collectionView.indexPathForItem(at: point) else { return }
+        index = indexPath.row
         
-        index = Int(targetIndex)
+        targetContentOffset.pointee.x = CGFloat(index) * cellSize.width
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
